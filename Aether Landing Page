@@ -40,8 +40,22 @@
     .nav a:hover {
       text-decoration: underline;
     }
+    .product-section {
+      margin-top: 60px;
+    }
+    .product-section h2 {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .product-img {
+      max-width: 500px;
+      width: 100%;
+      height: auto;
+      border: 1px solid #555;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
     .social-icons {
-      margin-top: 20px;
+      margin-top: 40px;
     }
     .social-icons img {
       width: 20px;
@@ -77,6 +91,11 @@
     <a href="#stores">stores</a>
     <a href="#contact">contact</a>
     <a href="#mailing-list">mailing list</a>
+  </div>
+
+  <div class="product-section">
+    <h2>Featured Drop</h2>
+    <img src="aether-shirt.jpg" alt="Aether Car Tee" class="product-img">
   </div>
 
   <div class="social-icons">
